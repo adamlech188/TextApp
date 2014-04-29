@@ -1,0 +1,66 @@
+
+.userpw {
+ position: relative;
+ margin-left: 10%; 
+ background: #fff; 
+}
+
+
+label { 
+ color: #555; 
+ display: inline-block;
+ text-align: right; 
+ margin-left: 18px; 
+ padding-top: 10px; 
+ font-size: 14px;
+ width: 165px; 
+
+}
+.star {
+    color:#DF0101; 
+}
+
+
+input[type=password] {
+    position: absolute; 
+    color: #777; 
+    padding-left: 10px; 
+    margin: 10px; 
+    margin-top: 5px; 
+    margin-left:15px; 
+    border: 1px solid #c7d0d2; 
+    border-radius: 2px; 
+ }
+
+.lower {
+ background: #fff; 
+ margin-left: 22%;
+ height:50px; 
+ margin-top: 10px;
+ margin-bottom: 10px;
+ 
+
+}
+
+
+input[type=button] {
+
+ 
+ font-size: 14px; 
+ font-weight: bold; 
+ color: #fff; 
+ background-color: #088A08;
+ margin-bottom: 0px; 
+ border-radius: 3px;
+ border: 2px solid #D8D8D8;
+ padding: 5px; 
+ cursor: pointer; 
+ 
+}
+
+#mbresponse, #adresponse {
+    color: red;
+    font-size: 10px;
+    
+}
+

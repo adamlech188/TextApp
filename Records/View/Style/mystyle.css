@@ -1,0 +1,121 @@
+        html {background:#CCCCCC}
+        body {
+            padding:10px;
+        text-align:left;
+        }
+
+        
+        #topnavig {
+           
+            
+            position: relative;
+	    text-align: center; 
+            margin-bottom: 10px; 
+            background: #fff;
+            border: 2px solid #660000;
+            color: #000;
+	    font-size: 19.5px; 
+            
+            
+        }
+	#xlsbtn {
+	    float:right; 
+	     
+	}
+	#csvbtn {
+	    float:right;
+	    margin-right: 3%; 
+	}
+	
+	dt {
+	    font-weight: 400;
+	     color: #93a7b3;
+	    
+	}
+	dl {
+	    list-style-type: none;
+	    
+	}
+	
+	dt {
+	    padding: 15px;
+	    
+	    margin-left: 10px;
+	    margin-right: 10px; 
+	    border-bottom: 1px solid #ff6600; 
+	   
+	}
+   
+        
+        #main{
+            
+          
+            background: #fff;
+	    border: 2px solid #660000 ;
+            height:  auto;
+	     padding:0px;
+        
+            
+        }
+	table
+	{
+	    
+	   
+	     width: 100%; 
+	    margin: 0; 
+	    background: white;
+	    border: hidden; 
+	
+	    
+	}
+	td {
+	    border-style: hidden; 
+	
+	    padding: 3px; 
+	}
+	th {
+	     border: hidden;
+	      padding: 3px;
+	      font-weight:bold; 
+	}
+	
+ 
+   
+	 .date {
+	    width: 17%; 
+	 }
+	 .start  {
+		width: 15%; 
+	  }
+	  .end {
+	    width: 15%; 
+	 }
+	 .texters  {
+		width: 10%; 
+	  }
+	  
+	 .nontexters {
+	    width: 10%; 
+	 }
+	 .location {
+	   width: 33%; 
+	 }
+        
+
+    
+        #doc {
+            width: 1000px;
+            margin: auto;
+        }
+       
+        #main a:link ,#main a:visited ,#main a:hover {
+            color: #600;
+            text-decoration:none;  
+        }
+      
+	
+        .superscript {
+            font-size:xx-small;
+            vertical-align:top; 
+        }
+   

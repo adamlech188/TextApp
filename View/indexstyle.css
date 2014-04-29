@@ -1,0 +1,147 @@
+
+html
+{
+    height: 100%;
+}
+.ui-page
+{
+    height: 100%;
+}
+.ui-page .ui-content
+{
+    height: 100%;
+}
+.ui-page .ui-content .ui-grid-a #ss
+{
+    height: 15%;
+}
+.ui-page .ui-content .ui-grid-a #tn
+{
+    height: 40%;
+}
+.ui-page .ui-content #progressbar
+{
+    height: 1%;
+}
+.ui-page .ui-content #undo
+{
+    height: 10%;
+    font-size: 17px;
+}
+.ui-page .ui-content #save
+{
+    font-size: 17px;
+}
+
+.ui-page .ui-content .ui-grid-a button
+{
+    background: #959595;
+    color: white;
+    font-size: 17px;
+}
+.ui-page .ui-content .ui-grid-a .ui-block-a #texting
+{
+    background: #959595;
+    padding: 10px;
+    color: white;
+    font-size: 50px;
+}
+.ui-page .ui-content .ui-grid-a .ui-block-b #notexting
+{
+    background: #959595;
+    padding: 10px;
+    color: white;
+    font-size: 50px;
+}
+.ui-page .ui-content .my_class
+{
+    background: #959595;
+    color: white;
+    font-size: 17px;
+}
+.ui-page .ui-footer .ui-grid-a .ui-block-a .my_class
+{
+    background: #959595;
+    color: white;
+    font-size: 17px;
+}
+
+.ui-page .ui-footer .ui-grid-a .ui-block-b .my_class
+{
+    background: #959595;
+    color: white;
+    font-size: 17px;
+}
+
+.ui-page .ui-content button
+{
+    background: #959595;
+    color: white;
+}
+.ui-page .ui-content .ui-btn-active
+{
+}
+.ui-page .ui-content h1
+{
+    font-size: 20px;
+}
+
+.ui-page .ui-header
+{
+    margin-bottom: 20px;
+    height: 7%;
+}
+button
+{
+    background: black;
+}
+
+.ui-progressbar
+{
+    background: #363636;
+}
+.ui-progressbar-value
+{
+    background: green;
+}
+.Acceptedbar
+{
+    background: green;
+}
+.ui-page .ui-header .ui-navbar
+{
+    height: 100%;
+}
+.ui-page .ui-header .ui-navbar ul
+{
+    height: 100%;
+}
+.ui-page .ui-header .ui-navbar ul li
+{
+    height: 100%;
+}
+.ui-page .ui-header .ui-navbar ul li a
+{
+    height: 50%;
+}
+.ui-page .ui-header .ui-navbar ul li button
+{
+    height: 100%;
+}
+.ui-page .ui-content .ui-btn-active
+{
+    color: yellow;
+}
+.ui-page .ui-content .ui-field-contain label
+{
+    width: 100%;
+}
+/*.ui-page .ui-content .ui-field-contain  span {
+		 
+		      
+		    margin-left: 0px;  
+		}*/
+#pid_text
+{
+    margin-left: 100px;
+}
