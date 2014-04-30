@@ -20,7 +20,7 @@
 <script src="../Control/index_control.js" language="javascript" type="text/javascript"></script>
 </head>
     <?php
-     $link = mysql_connect('db512462049.db.1and1.com','dbo512462049','Simba1@$*'); 
+     $link = mysql_connect('db512462049.db.1and1.com','XXXXXXX','XXXXXXX'); 
         if (!$link) { 
             die('Could not connect to MySQL: ' . mysql_error()); 
         }
