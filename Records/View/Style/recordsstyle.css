@@ -1,194 +1,209 @@
-        html , body { 
-	    width: 100%; 
-	    height: 130%; 
-	    font-family: "Helvetica Neue", Helvetica, sans-serif; 
-	    color: #444; 
-	    background:#f0f0f0; 
+html, body
+{
+    width: 100%;
+    height: 130%;
+    font-family: "Helvetica Neue" , Helvetica, sans-serif;
+    color: #444;
+    background: #f0f0f0;
+}
+
+#topnavig a
+{
+    text-decoration: none;
+    color: #fff;
+}
+#topnavig
+{
+    position: relative;
+    margin-bottom: 10px;
+    background: #980000;
+    border: 2px solid #fff;
+    color: #fff;
+}
+#topnavig ul li
+{
+    display: inline;
+    font-size: 120%;
+}
+#topnavig ul li.options
+{
+    padding-right: 75px;
+}
+
+#logout
+{
+    float: right;
+    margin-right: 15px;
+    margin-top: -5px;
+    border: 2px solid #fff;
+    padding: 3px;
+    border-radius: 5px;
+}
+#xlsbtn
+{
+    float: right;
+}
+.csvbtn
+{
+    float: right;
+    margin-right: 3%;
+}
+
+dt
+{
+    font-weight: 400;
+    color: #93a7b3;
+}
+dl
+{
+    list-style-type: none;
+}
+
+dt
+{
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ff6600;
+}
 
 
-	} 
+#main
+{
+    background: #fff;
+    border: 2px solid #660000;
+    height: auto;
+    padding: 0px;
+}
+table
+{
+    width: 100%;
+    margin: 0;
+    background: white;
+    border: hidden;
+}
+td
+{
+    border-style: hidden;
+    padding: 3px;
+}
+th
+{
+    border: hidden;
+    padding: 3px;
+    font-weight: bold;
+}
 
-       #topnavig a {
-	    text-decoration: none;
-	    color: #fff; 
-	}
-        #topnavig {
-           
-	    position: relative;
-            margin-bottom: 10px; 
-            background: #980000 ;
-            border: 2px solid #fff;
-            color: #fff;
-	    
-        }
-	#topnavig ul li {
-	    display:inline;
-	    font-size: 120%;  
-	}
-	#topnavig ul li.options {
-	    
-	    padding-right: 75px;
-	    
-	}
-       
-	#logout {
-	    float: right;
-	    margin-right: 15px;
-	    margin-top: -5px; 
-	    border: 2px solid #fff;
-	    padding: 3px;
-	    border-radius: 5px; 
-	  
-	}
-	#xlsbtn {
-	    float:right; 
-	     
-	}
-	.csvbtn {
-	    float:right;
-	    margin-right: 3%; 
-	}
-	
-	dt {
-	    font-weight: 400;
-	     color: #93a7b3;
-	    
-	}
-	dl {
-	    list-style-type: none;
-	    
-	}
-	
-	dt {
-	    padding: 15px;
-	    
-	    margin-left: 10px;
-	    margin-right: 10px;
-	    margin-bottom: 10px; 
-	    border-bottom: 1px solid #ff6600;
-	    
-	   
-	}
-   
-        
-        #main{
-            
-          
-            background: #fff;
-	    border: 2px solid #660000 ;
-            height:  auto;
-	     padding:0px;
-        
-            
-        }
-	table
-	{
-	    
-	   
-	     width: 100%; 
-	    margin: 0; 
-	    background: white;
-	    border: hidden; 
-	
-	    
-	}
-	td {
-	    border-style: hidden; 
-	
-	    padding: 3px; 
-	}
-	th {
-	     border: hidden;
-	      padding: 3px;
-	      font-weight:bold; 
-	}
-	
- 
-   
-	 .date {
-	    width: 17%;
-	    text-align: center; 
-	 }
-	 .start  {
-		width: 15%;
-		text-align: center; 
-	  }
-	  .end {
-	    width: 15%;
-	    text-align: center; 
-	 }
-	 .texters  {
-		width: 10%;
-		text-align: center; 
-	  }
-	  
-	 .notexters {
-		width: 10%;
-		text-align: center; 
-	    
-	 }
-	 .location {
-	   width: 33%;
-	   text-align: center; 
-	 }
-	 
-	#places {
-	    list-style-type: none; 
-	}
-        
-	#places li {
-	    padding: 10px; 
-	    margin-left: 10px;
-	    margin-right: 10px; 
-	    border-bottom: 1px solid #ff6600; 
-	}
-	.users {
-	    padding: 10px; 
-	    margin-left: 10px;
-	    margin-right: 10px;
-	    margin-top: 0px; 
-	    border-bottom: 1px solid #ff6600;
-	    font-weight: 400;
-	    color: #93a7b3;
-	}
-        #newplbtn  {
-	    padding: 3px; 
-	    margin-left: 49px;
-	    margin-bottom: 15px; 
-	}
-	 #adduserbtn {
-	    
-	    padding: 3px;
-	    display: block;
-	    /*margin-top: auto;
-	    margin-bottom: auto; 
-    	    margin-left: auto;
-	    margin-right: auto; */
-	    margin: auto; 
-	    margin-top: 15px; 
-	}
-	#adduser {
-	    border: 2px solid #a86107;
-	    border-radius: 20px;
-	    background: #f5f5eb  ; 
-	    width: 30%;
-	    height:70px; 
-	    margin-top: 8%; 
-	    margin-bottom: 3%; 
-	   margin-left: auto;
-	   margin-right: auto; 
-	}
-	#places li button {
-	    float: right;
 
-	}
-    
-        #doc {
-            width: 1000px;
-            margin: auto;
-        }
-    
-      
-	
 
-   
+.date
+{
+    width: 17%;
+    text-align: center;
+}
+.start
+{
+    width: 15%;
+    text-align: center;
+}
+.end
+{
+    width: 15%;
+    text-align: center;
+}
+.texters
+{
+    width: 10%;
+    text-align: center;
+}
+
+.notexters
+{
+    width: 10%;
+    text-align: center;
+}
+.location
+{
+    width: 33%;
+    text-align: center;
+}
+
+#places
+{
+    list-style-type: none;
+}
+
+#places li
+{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid #ff6600;
+}
+.users
+{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    border-bottom: 1px solid #ff6600;
+    font-weight: 400;
+    color: #93a7b3;
+}
+#newplbtn
+{
+    padding: 3px;
+    margin-left: 49px;
+    margin-bottom: 15px;
+}
+#adduserbtn
+{
+    padding: 3px;
+    display: block; /*margin-top: auto; 	    margin-bottom: auto;      	    margin-left: auto; 	    margin-right: auto; */
+    margin: auto;
+    margin-top: 15px;
+}
+#adduser
+{
+    border: 2px solid #a86107;
+    display: inline-block;
+    border-radius: 20px;
+    background: #f5f5eb;
+    width: 30%;
+    height: 70px;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+#allusers
+{
+    border: 2px solid #a86107;
+    float: right;
+    border-radius: 20px;
+    background: #f5f5eb;
+    width: 30%;
+    height: 70px;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    margin-right: 10%;
+    margin-left: auto;
+}
+#places li button
+{
+    float: right;
+}
+
+#doc
+{
+    width: 1000px;
+    margin: auto;
+}
+a
+{
+    text-decoration: none;
+}
+
+
+

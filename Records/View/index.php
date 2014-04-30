@@ -20,7 +20,7 @@
 <script src="../Control/index_control.js" language="javascript" type="text/javascript"></script>
 </head>
     <?php
-     $link = mysql_connect('db512462049.db.1and1.com','XXXXXXXX','XXXXXXXX'); 
+     $link = mysql_connect('db512462049.db.1and1.com','dbo512462049','Simba1@$*'); 
         if (!$link) { 
             die('Could not connect to MySQL: ' . mysql_error()); 
         }
@@ -99,8 +99,10 @@
             </dl>
             <div id="adduser" >
 	     <input type="button" value="Add new collector" id="adduserbtn" onclick="addUser()">
-	    </div>
-       
+		  </div>
+          <div id="allusers" >
+	   <a href="../Data/csvallusers.php">  <input type="button" value="All users data" id="adduserbtn" > </a>
+		  </div>
 
         </div>
     </div>
